@@ -20,7 +20,6 @@ def main(folder):
 
     api = DiscogsAPI()
     release = api.search_release(artist, album)
-
     if not release:
         print("No matching release found on Discogs.")
         return
