@@ -1,4 +1,4 @@
-from my_discogs_client import DiscogsAPI
+from Infrastructure.my_discogs_client import DiscogsAPI
 
 def test_search():
     api = DiscogsAPI()

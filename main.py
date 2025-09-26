@@ -1,8 +1,8 @@
 # --- Imports ---
 import os
 import sys
-from file_scanner import scan_folder, read_metadata
-from music_library_organizer import MusicLibraryOrganizer
+from MusicOrganizer.file_scanner import scan_folder, read_metadata
+from MusicOrganizer.music_library_organizer import MusicLibraryOrganizer
 
 
 # --- Helper Functions ---

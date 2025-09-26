@@ -1,7 +1,7 @@
 import os
-from file_scanner import scan_folder, read_metadata
-from tagger import rename_files
-from my_discogs_client import DiscogsAPI
+from MusicOrganizer.file_scanner import scan_folder, read_metadata
+from MusicOrganizer.tagger import rename_files
+from Infrastructure.my_discogs_client import DiscogsAPI
 from mutagen.flac import FLAC
 import json
 
